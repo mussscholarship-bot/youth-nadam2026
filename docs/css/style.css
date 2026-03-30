@@ -217,6 +217,49 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.6;
 }
 
+/* ===== MESSAGE ===== */
+.message { background: #fff; }
+.message p { font-size: 1.02rem; color: #444; margin-bottom: 16px; }
+
+/* ===== BANK INFO ===== */
+.bank-info {
+  margin-top: 20px;
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 18px 20px;
+}
+
+.bank-title {
+  font-weight: 700;
+  color: #1a2744;
+  margin-bottom: 10px;
+}
+
+.bank-info table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.97rem;
+}
+
+.bank-info table tr td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #dde3f0;
+}
+
+.bank-info table tr td:first-child {
+  color: #666;
+  width: 100px;
+  white-space: nowrap;
+}
+
+.bank-info table tr:last-child td { border-bottom: none; }
+
+.bank-note {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
 /* ===== CONTACT ===== */
 .contact { background: #1a2744; color: #fff; text-align: center; }
 .contact .section-title { color: #fff; border-color: #c0392b; }
