@@ -4,7 +4,7 @@
   "description": "Online registration application for the Mongolian Youth Nadam event in Japan.",
   "main": "src/app.ts",
   "scripts": {
-    "start": "ts-node src/app.ts",
+    "start": "node dist/app.js",
     "build": "tsc",
     "dev": "ts-node-dev src/app.ts"
   },
